@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
+<script src="js/script.js"></script>
 <body>
     <header>
         <div class="container">
@@ -68,42 +68,42 @@
                                 </div>
                                 <div>
                                     <div class="progressContainer">
-                                        <div class="progress noOpacity">
-                                            <div class="progress-bar quatredix">
-                                                <span class="progress-icon">HTML / CSS / JS</span>
-                                                <span class="progress-value">90%</span>
+                                        <div class="progress noOpacity" onclick="toggleProgressBar(this)">
+                                            <div class="progress-bar quatredix" data-pourcentage="90" style="width: 100%">
+                                                <span class="progress-icon" style="opacity: 1;">HTML / CSS / JS</span>
+                                                <span class="progress-value" style="opacity: 0;">90%</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="progressContainer">
-                                        <div class="progress noOpacity">
-                                            <div class="progress-bar quatrevingt">
-                                                <span class="progress-icon">PHP</span>
-                                                <span class="progress-value">80%</span>
+                                        <div class="progress noOpacity" onclick="toggleProgressBar(this)">
+                                            <div class="progress-bar quatrevingt" data-pourcentage="80" style="width: 100%">
+                                                <span class="progress-icon" style="opacity: 1;">PHP</span>
+                                                <span class="progress-value" style="opacity: 0;">80%</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="progressContainer">
-                                        <div class="progress noOpacity">
-                                            <div class="progress-bar soixantequinze">
-                                                <span class="progress-icon">Angular</span>
-                                                <span class="progress-value">75%</span>
+                                        <div class="progress noOpacity" onclick="toggleProgressBar(this)">
+                                            <div class="progress-bar soixantequinze" data-pourcentage="75" style="width: 100%">
+                                                <span class="progress-icon" style="opacity: 1;">Angular</span>
+                                                <span class="progress-value" style="opacity: 0;">75%</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="progressContainer">
-                                        <div class="progress noOpacity">
-                                            <div class="progress-bar soixantedix">
-                                                <span class="progress-icon">NodeJs</span>
-                                                <span class="progress-value">70%</span>
+                                        <div class="progress noOpacity" onclick="toggleProgressBar(this)">
+                                            <div class="progress-bar soixantedix" data-pourcentage="70" style="width: 100%">
+                                                <span class="progress-icon" style="opacity: 1;">NodeJs</span>
+                                                <span class="progress-value" style="opacity: 0;">70%</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="progressContainer">
-                                        <div class="progress noOpacity">
-                                            <div class="progress-bar quatrevingt">
-                                                <span class="progress-icon">WordPress</span>
-                                                <span class="progress-value">80%</span>
+                                        <div class="progress noOpacity" onclick="toggleProgressBar(this)">
+                                            <div class="progress-bar quatrevingt" data-pourcentage="80" style="width: 100%">
+                                                <span class="progress-icon" style="opacity: 1;">WordPress</span>
+                                                <span class="progress-value" style="opacity: 0;">80%</span>
                                             </div>
                                         </div>
                                     </div>
@@ -117,18 +117,18 @@
                                 </div>
                                 <div>
                                     <div class="progressContainer">
-                                        <div class="progress noOpacity">
-                                            <div class="progress-bar quatredix">
-                                                <span class="progress-icon">MySQL</span>
-                                                <span class="progress-value">90%</span>
+                                        <div class="progress noOpacity" onclick="toggleProgressBar(this)">
+                                            <div class="progress-bar quatredix" data-pourcentage="90" style="width: 100%">
+                                                <span class="progress-icon" style="opacity: 1;">MySQL</span>
+                                                <span class="progress-value" style="opacity: 0;">90%</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="progressContainer">
-                                        <div class="progress noOpacity">
-                                            <div class="progress-bar quatrevingt">
-                                                <span class="progress-icon">PLPGSQL</span>
-                                                <span class="progress-value">80%</span>
+                                        <div class="progress noOpacity" onclick="toggleProgressBar(this)">
+                                            <div class="progress-bar quatrevingt" data-pourcentage="80" style="width: 100%">
+                                                <span class="progress-icon" style="opacity: 1;">PLPGSQL</span>
+                                                <span class="progress-value" style="opacity: 0;">80%</span>
                                             </div>
                                         </div>
                                     </div>
@@ -142,26 +142,26 @@
                                 </div>
                                 <div>
                                     <div class="progressContainer">
-                                        <div class="progress noOpacity">
-                                            <div class="progress-bar quatredix">
-                                                <span class="progress-icon">C</span>
-                                                <span class="progress-value">90%</span>
+                                        <div class="progress noOpacity" onclick="toggleProgressBar(this)">
+                                            <div class="progress-bar quatredix" data-pourcentage="90" style="width: 100%">
+                                                <span class="progress-icon" style="opacity: 1;">C</span>
+                                                <span class="progress-value" style="opacity: 0;">90%</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="progressContainer">
-                                        <div class="progress noOpacity">
-                                            <div class="progress-bar soixantequinze">
-                                                <span class="progress-icon">Java</span>
-                                                <span class="progress-value">75%</span>
+                                        <div class="progress noOpacity" onclick="toggleProgressBar(this)">
+                                            <div class="progress-bar soixantequinze" data-pourcentage="75" style="width: 100%">
+                                                <span class="progress-icon" style="opacity: 1;">Java</span>
+                                                <span class="progress-value" style="opacity: 0;">75%</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="progressContainer">
-                                        <div class="progress noOpacity">
-                                            <div class="progress-bar quatrevingt">
-                                                <span class="progress-icon">Python</span>
-                                                <span class="progress-value">80%</span>
+                                        <div class="progress noOpacity" onclick="toggleProgressBar(this)">
+                                            <div class="progress-bar quatrevingt" data-pourcentage="80" style="width: 100%">
+                                                <span class="progress-icon" style="opacity: 1;">Python</span>
+                                                <span class="progress-value" style="opacity: 0;">80%</span>
                                             </div>
                                         </div>
                                     </div>
